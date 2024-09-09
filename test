@@ -1,0 +1,28 @@
+# Programme simple pour tester Visual Studio Code
+
+def afficher_message():
+    print("Bienvenue dans Visual Studio Code !")
+    
+def addition(a, b):
+    return a + b
+
+def boucle_simple():
+    for i in range(5):
+        print(f"Nombre actuel: {i}")
+
+def manipuler_liste():
+    fruits = ["pomme", "banane", "orange"]
+    print("Liste des fruits:", fruits)
+    fruits.append("kiwi")
+    print("Liste après ajout de kiwi:", fruits)
+
+# Appel des fonctions pour tester
+if __name__ == "__main__":
+    afficher_message()
+    
+    resultat = addition(10, 5)
+    print(f"Le résultat de l'addition 10 + 5 est : {resultat}")
+    
+    boucle_simple()
+    
+    manipuler_liste()
